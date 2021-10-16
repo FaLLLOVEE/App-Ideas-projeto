@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@keyframes bga {
+    from{
+        background: linear-gradient(10deg, white, black);
+    }
+    to{
+        background: linear-gradient(40deg, white, black);
+
+    }
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+
+main
+{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+}
+main h1
+{
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    margin: 10px;
+}
+main textarea 
+{
+    display: block;
+    padding: 5px;
+    width: calc(100% - 10px);
+    height: calc(50% - 30px);
+    resize: none;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.392);
+    border: none;
+    outline: none;
+    color: white;
+
+}
+p{
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(184, 184, 184);
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
