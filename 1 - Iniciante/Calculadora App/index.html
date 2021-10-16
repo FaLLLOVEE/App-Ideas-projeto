@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="val">
+            <p id="current"></p>
+        </div>
+        <ul class="calculadora">
+            <li onclick="addNumberInCalc(this)">0</li>
+            <li onclick="addNumberInCalc(this)">1</li>
+            <li onclick="addNumberInCalc(this)">2</li>
+            <li onclick="CalcMais()">+</li>
+            <li onclick="addNumberInCalc(this)">3</li>
+            <li onclick="addNumberInCalc(this)">4</li>
+            <li onclick="addNumberInCalc(this)">5</li>
+            <li onclick="CalcMenos()">-</li>
+            <li onclick="addNumberInCalc(this)">6</li>
+            <li onclick="addNumberInCalc(this)">7</li>
+            <li onclick="addNumberInCalc(this)">8</li>
+            <li onclick="CalcVezes()"><i class="bi bi-x"></i></li>
+            <li onclick="addNumberInCalc(this)">9</li>
+            <li onclick="CalcPot()">^</li>
+            <li onclick="CalcDivid()"><i class="bi bi-slash"></i></li>
+            <li onclick="Calc()">=</li>
+        </ul>
+        
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
